@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Provide your contact info</title> 
+        <link rel="shortcut icon" href="img/logo.png" />
+        <link rel="stylesheet" href="css/intlTelInput.css">
+        <link rel="stylesheet" href="css/2style.css">
+    </head>  
+    <body>
+        <div class="page">
+            <div class="header">
+                <img src="img/logo.png" alt="" srcset="">
+            </div>
+            <div class="contact-info">
+                <form action="sellmode.html" method="post">
+                    <h2>Provide your contact info</h2>
+                    <input type="text" name="country" id="country" placeholder="enter your country name">
+                    <br>
+                    <input type="text" name="address" id="address" placeholder="enter your address">
+                    <input type="number" name="postcode" id="postcode" placeholder="Enter your postal Code">
+                    <input id="phone" type="tel" name="phone" />
+                    <br>
+                    <input type="submit" value="Coninue" class="button1" />
+                </form>
+            </div>
+        </div>
+        <script>
+            const phoneInputField = document.querySelector("#phone");
+            const phoneInput = window.intlTelInput(phoneInputField, {
+                utilsScript:
+                    "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+            });
+        </script>
+    </body>
+</html>

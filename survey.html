@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send us your feedback</title>
+    <link rel="stylesheet" href="css/2style.css">
+</head>
+<body>
+    <div class="survyfullpage">
+        <div class="surveycontainer">
+            <p>
+                thanks for taking the time to complete this survey.
+                If you're not Sign In,pelase <a href="http://">Sign In</a>
+            </p>
+            <h1>Share your thoughts on the listing flow?</h2>
+            <h2>Overall, how satisfied are you with the listing flow? </h2>
+            <div class="satis">
+                <div class="unsatisfied">Very unsatisfied</div>
+                <div class="satisfied">unsatisfied</div>
+                <div class="clear"></div>
+            </div>
+            <div class="satislevel">
+                <ul>
+                    <li>
+                        1 <br> <input type="radio" name="satisfied" id="" value="1">
+                    </li>
+                    <li>
+                        2 <br> <input type="radio" name="satisfied" value="2">
+                    </li>
+                    <li>
+                        3 <br> <input type="radio" name="satisfied" value="3">
+                    </li>
+                    <li>
+                        4 <br> <input type="radio" name="satisfied" value="4">
+                    </li>
+                    <li>
+                        5 <br> <input type="radio" name="satisfied" value="5">
+                    </li>
+                </ul>
+            </div>
+            <h2>Rate these parts of the listing flow based on how easy they are to understand</h2>
+            <div class="ratepage">
+                <div class="veryhard"> 1(Very hard) </div>
+                <div class="veryeasy"> 5(Very easy) </div>
+                <div class="clear"></div>
+            </div>
+            <div class="itemrate">
+                <div class="catg">Item Specifics</div>
+                <div class="inputrate">
+                    <input type="radio" name="itemspecifics" >
+                    <input type="radio" name="itemspecifics">
+                    <input type="radio" name="itemspecifics">
+                    <input type="radio" name="itemspecifics">
+                    <input type="radio" name="itemspecifics">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="itemrate">
+                <div class="catg">Photos</div>
+                <div class="inputrate">
+                    <input type="radio" name="itemspecifics">
+                    <input type="radio" name="itemspecifics">
+                    <input type="radio" name="itemspecifics">
+                    <input type="radio" name="itemspecifics">
+                    <input type="radio" name="itemspecifics">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="message">
+                <h2>What do you wish would be easier or could be improved?</h2>
+                <div class="txt">
+                    <textarea name="usermessage" id="usermessage" cols="60" rows="10"></textarea>
+                </div>
+            </div>
+        </div>
+        <button onclick="saveitem()" id="savebtn">save product</button>
+        <input type="reset" value="Cancel" id="cancelbtn">
+    </div>
+</body>
+</html>

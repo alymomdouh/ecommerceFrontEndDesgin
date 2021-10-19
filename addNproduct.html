@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="img/logo.png" /> 
+    <link rel="stylesheet" href="css/2style.css">
+</head>
+<body>
+    <div class="fullpage">
+        <div class="container">
+            <div class="header">
+                <img src="img/logo.png" alt="" srcset="">
+                <div class="navbar1">
+                    <br>
+                    <h2>Create your listing</h2> 
+                    <br>
+                </div>
+            </div>
+            <div class="content">
+                <div class="list-group">
+                    <div class="groupitem">
+                        <h1>listing details </h1>
+                    </div>
+                    <div class="groupitem">
+                        <div class="typeitem">
+                            <h1>Title</h1>
+                        </div>
+                        <div class="valueitem">
+                            <input type="text" name="title" id="title">
+                            <br>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="groupitem">
+                        <div class="typeitem">
+                            <h1>Category</h1>
+                        </div>
+                        <div class="valueitem">
+                            <input type="text" name="catg" id="catg" >
+                            <br>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="groupitem">
+                        <div class="typeitem">
+                            <h1>Brand</h1>
+                        </div>
+                        <div class="valueitem">
+                            <input type="text" name="Brand" id="Brand">
+                            <br>
+                        </div>
+                    </div>
+                    <div class="clear"></div> 
+                    <div class="groupitem">
+                        <div class="typeitem">
+                            <h1>Item description</h1>
+                        </div>
+                        <div class="valueitem">
+                            <textarea name="itemdescription" id="itemdescription" cols="30" rows="20"></textarea>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="groupitem">
+                        <div class="typeitem">
+                            <h1>Photos</h1>
+                        </div>
+                        <div class="valueitem">
+                            <div class="onne">
+                                <button width="">
+                                    Add photos
+                                </button>
+                                <br>
+                                Add up to 12 photos
+                            </div>
+                            <div class="two">
+                                <table>
+                                    <tr>
+                                        <td><img src="img/img.png"></td>
+                                        <td><img src="img/img.png"></td>
+                                        <td><img src="img/img.png"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="img/img.png"></td>
+                                        <td><img src="img/img.png"></td>
+                                        <td><img src="img/img.png"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="img/img.png"></td>
+                                        <td><img src="img/img.png"></td>
+                                        <td><img src="img/img.png"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+                    </div> 
+                    <div class="clear"></div>
+                    <div class="groupitem">
+                        <div class="typeitem">
+                            <h1>Price</h1>
+                        </div>
+                        <div class="valueitem">
+                            <input type="number" name="price" id="price">
+                            <br>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="groupitem">
+                        <div class="typeitem">
+                            <h1>Quantity</h1>
+                        </div>
+                        <div class="valueitem">
+                            <input type="number" name="quantity" id="quantity">
+                            <br>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <button onclick="saveitem()" id="savebtn">save product</button>
+                <input type="reset" value="Cancel" id="cancelbtn">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
