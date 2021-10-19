@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+header {
+    height: 250px;
+}
+.header a:hover{
+text-decoration: underline;
+}
+#logo{
+    width: 150px;
+    height: 150px;
+    margin-left:50px ;
+    float: left;
+    clear: both;
+}
+#ShopBycategory{
+    float: left;
+    padding-top: 55px;
+    
+}
+#ShopBycategory:hover{
+   color: blue;
+}
+#search{
+    width: 616px;
+    height: 38px;
+    border:2px solid black;
+  
+}
+
+
+#selectcategory{
+    height: 38px;
+    margin-left: 0;
+  
+}
+#btnsearch{
+    width: 160px;
+    height: 38px;
+    background-color: #3665f3;
+    color: white;
+    opacity: 0.7;
+}
+#btnsearch:hover{
+ opacity: 1;
+}
+.Search{
+    padding-top: 70px;
+    margin-left: 30px;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+}
+nav>ul,li,a{
+
+  display: inline-block;
+  color: black; 
+  list-style-type: none; 
+  text-decoration: none;
+  margin-left: 10px;
+ 
+    
+}
+nav>ul{
+    margin-left: 100px ;
+    text-align: center;
+    padding-top: 15px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: white;
+ 
+}
+.divimg{
+    background-image: url('https://i.ebayimg.com/images/g/PtsAAOSwqM5dpf0X/s-l1600.webp');
+    background-size: cover;
+    overflow: hidden;
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+    cursor:pointer ;
+}
+
+.divimg>h1,.divimg>p{
+    color: red;
+    font-family: Tahoma;
+    margin-left: 50px;
+    margin-top: 20px;
+    opacity: 0.7;
+    
+   
+}
+#shopnowbtn{
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 120px;
+  height: 40px;
+  color: red;
+  opacity: 0.7;
+  background-color: yellow;
+  border: 1px solid red;
+  cursor:pointer ;
+  transition-duration: 2s;
+}
+#shopnowbtn:hover{
+    background-color: red;
+    color:yellow;
+   
+
+}
+.Explore-Popular{
+  
+    margin-top:30px;
+    
+   
+}
+#h1-explore1{
+    margin-left: 25px;
+    
+}
+ .Explore-Popular-Categories>a{
+    float: left;
+    color: black;
+    margin:10px ;
+    text-decoration: none;
+    text-align: center;   
+    
+   
+} 
+.Explore-Popular-Categories>a:hover{
+    border: 1px dashed gry;
+    text-decoration: underline;
+    box-shadow: 0 0 0 0px grey;
+    opacity: 0.6;
+}
+.Explore-Popular1>a:nth-child(1){
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+
+}
+.Explore-Popular1>a:nth-child(1):hover{
+   text-decoration: underline;
+
+}
+
+.Explore-Popular1>a:nth-child(2){
+  margin-left: 30px;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+.Explore-Popular1>a:nth-child(2):hover{
+    text-decoration: underline;
+ }
+.footer{
+    background-color: #fff;
+}
+ #pfooter{
+   
+     color: grey;
+     margin-left: 25px;
+     margin-top: 50px;
+
+ }
+ #pfooter>a{
+    color: grey;
+    
+}
+
+  .footerlinks{
+      float: left;
+    padding-top: 100px;
+    margin: 80px;
+  
+  }
+  .footerlinks>a{
+    list-style-type:none;
+    color: grey;
+    text-decoration: none;
+   
+  }
+  .footerlinks>:nth-child(1)
+  {
+      font-weight: bold;
+      font-size: 20px;
+  }
+  .footerlinks>a:hover{
+      text-decoration: underline;
+  }
+
+  #pfooter{
+      clear: both;
+      padding: 50px;
+  }
+
+
+

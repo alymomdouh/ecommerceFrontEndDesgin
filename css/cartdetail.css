@@ -1,0 +1,244 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+}
+.header{
+    height: 150px;
+}
+
+.header1{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #ffffff;
+    height: 38px;
+}
+.header1 a
+{
+    color: black;
+    text-decoration: none;
+    margin: 5px;
+}
+.header1 a:hover
+{
+    color: rgb(87, 120, 228);
+}
+#hone{
+    font-size: 65px;
+}
+.header2
+{
+    height: 140px;
+    background-color: #e7e5e5;
+}
+.header2 h1{
+    margin-left: 30px;
+
+}
+.header2 h1:hover{
+    cursor: pointer;
+}
+#searchbox{
+    width: 600px;
+    height: 20px;
+    background-color: white;
+    border: 3px solid rgb(129, 128, 128) ;
+    align-items: center;
+    padding: 20px;
+}
+#searchbox >i{
+    font-size: 20px;
+    color: rgb(167, 161, 161);
+}
+#searchbox >input{
+    flex: 1;
+    height: 30px;
+    border: none;
+    outline: none;
+    width: 700px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+#selectcat {
+    height:50px;
+    width: 150px;
+    border: 3px solid #777;
+    background-color: #fff;
+    color: #918f8f;
+    font-size: 18px;
+}
+#searchbtn{
+    height:50px;
+    width: 130px;
+    border: none;
+    background-color: rgb(102, 64, 241);
+    color: #fff;
+    font-size: 18px;
+}
+#searchbtn:hover{
+    background-color: rgb(142, 113, 247);
+    cursor: pointer;
+}
+#adv{
+    text-decoration: none; color: rgb(177, 165, 165);
+}
+#adv:hover{
+    color: rgb(115, 115, 245);
+    cursor: pointer;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+.container >h1{
+    padding: 20px 0;
+}
+.cart{
+    display: flex;
+}
+.products{
+    flex: 0.75;
+}
+.product{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid silver;
+    margin-bottom: 20px;
+
+}
+/* .product :hover{
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+    transform: scale(1.01);
+} */
+.product >img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.product >img:hover{
+    transform: scale(1.04);
+}
+.product-info{
+    padding: 20px;
+    width: 100%;
+    position: relative;
+}
+.product-name ,.product-price , .product-offer{
+margin-bottom: 15px;
+}
+.product-quantity > input{
+width: 40px;
+padding: 5px;
+text-align: center;
+}
+.product-remove{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 25px;
+    
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* .product-remove:hover{
+    background-color: white;
+    color: green;
+    font-weight: 600;
+    border: 1px solid green;
+
+} */
+.cart-total
+{
+    flex: .25;
+    margin-left: 20px;
+    padding: 20px;
+    height: 240px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+.cart-total p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.cart-total a{
+    display: block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgb(32, 45, 165);
+    color: white;
+    text-decoration: none;
+}
+.cart-total a:hover{
+    
+    background-color: rgb(90, 90, 247);
+}
+.footer{
+    height: 60px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #e9e3e3;
+    color: #41413f;
+}
+
+
+/* -------------------------------------style for details---------------------------------------- */
+.product_details{
+    flex: 0.75;
+    max-width: 1200px;
+    /* display: flex; */
+}
+.product_details h1{
+    margin-top: 20px;
+}
+.details >img{
+    width: 260px;
+    height: 250px;
+     object-fit: cover; 
+     margin: 15px;
+}
+
+.details >img:hover{
+    transform: scale(1.07);
+}
+.details-info{
+    padding: 20px;
+    width: 100%;
+    /* position: relative; */
+    float: right;;
+}
+.details-name ,.details-price , .details-offer{
+margin-bottom: 15px;
+}
+.details-quantity > input{
+width: 40px;
+padding: 5px;
+text-align: center;
+}
+.btn a{
+    display: block;
+    text-align: center;
+    height: 40px;
+    width: 400px;
+    line-height: 40px;
+    background-color: rgb(32, 45, 165);
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    border-radius: 20px;
+}
+.btn a:hover{
+    
+    background-color: rgb(90, 90, 247);
+}
