@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Provide your contact info</title> 
         <link rel="shortcut icon" href="img/logo.png" />
-        <link rel="stylesheet" href="css/intlTelInput.css">
+        <!-- <link rel="stylesheet" href="css/intlTelInput.css"> -->
         <link rel="stylesheet" href="css/2style.css">
     </head>  
     <body>
@@ -15,24 +15,27 @@
                 <img src="img/logo.png" alt="" srcset="">
             </div>
             <div class="contact-info">
-                <form action="sellmode.html" method="post">
+                <form action="sellmode.html" method="post" enctype="multipart/form-data">
                     <h2>Provide your contact info</h2>
-                    <input type="text" name="country" id="country" placeholder="enter your country name">
+                    <input type="text" name="country1" id="country" placeholder="enter your country name">
                     <br>
-                    <input type="text" name="address" id="address" placeholder="enter your address">
-                    <input type="number" name="postcode" id="postcode" placeholder="Enter your postal Code">
-                    <input id="phone" type="tel" name="phone" />
+                    <input type="text" name="address1" id="address" placeholder="enter your address">
+                    <input type="number" name="postcode1" id="postcode" placeholder="Enter your postal Code">
+                    <input id="phone" type="tel" name="phone1" />
                     <br>
-                    <input type="submit" value="Coninue" class="button1" />
+                    
+                    <!-- <button> <a href="sellmode.html" class="button12">Coninue</a></button> -->
+                    <input type="submit" value="Coninue" class="button1" onsubmit="location.href='sellmode.html'" /> 
                 </form>
+                
             </div>
         </div>
         <script>
-            const phoneInputField = document.querySelector("#phone");
-            const phoneInput = window.intlTelInput(phoneInputField, {
-                utilsScript:
-                    "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
-            });
+            // const phoneInputField = document.querySelector("#phone");
+            // const phoneInput = window.intlTelInput(phoneInputField, {
+            //     utilsScript:
+            //         "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+            // });
         </script>
     </body>
 </html>
